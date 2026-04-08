@@ -1,0 +1,104 @@
+{
+  "theme": "Dark",
+  "archetype": "7 (Electric & Neon / Gaming)",
+  "rationale": "Matches the high-energy, vibrant Anime Battle Arena (ABA) style while bringing in clear competitive gaming aesthetics. Integrates the requested tropical background with heavy contrasts for UI legibility.",
+  "colors": {
+    "primary_background": "rgba(10, 10, 10, 0.8)",
+    "secondary_background": "#000000",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1AA",
+    "buttons": {
+      "ranked_orange": "#F97316",
+      "play_green": "#22C55E",
+      "training_red": "#EF4444",
+      "yellow": "#EAB308",
+      "purple": "#A855F7",
+      "blue": "#3B82F6"
+    },
+    "borders": {
+      "card_border": "#DC2626",
+      "ui_border": "#3F3F46"
+    }
+  },
+  "typography": {
+    "headings": {
+      "font": "Bebas Neue, sans-serif",
+      "weights": ["400"]
+    },
+    "body": {
+      "font": "Chivo, sans-serif",
+      "weights": ["400", "700"]
+    },
+    "scale": {
+      "h1": "text-5xl sm:text-6xl tracking-tight",
+      "h2": "text-3xl sm:text-4xl tracking-tight",
+      "h3": "text-xl sm:text-2xl",
+      "body": "text-base",
+      "small": "text-sm"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "p-6 md:p-12",
+    "grid_gap": "gap-6 md:gap-8",
+    "roster_grid": "grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-2 p-4 bg-black rounded-lg",
+    "draft_split": "grid grid-cols-1 md:grid-cols-3 gap-8 items-start"
+  },
+  "components": {
+    "buttons": "Heavy, saturated colors, bold uppercase text (Bebas Neue). Use deep drop shadows or bottom borders to simulate 3D depth (e.g., border-b-4 border-black/50). Hover states should increase brightness and slightly translate up.",
+    "character_cards": "Black background, solid red border (border-2 border-red-600), squared edges (no border-radius) or subtle 2px. Fixed aspect ratio (e.g., aspect-[3/4]). Image should fill the card.",
+    "top_banner": "Dark, slightly transparent black banner (bg-black/80 backdrop-blur-md) with a golden accent or bottom border. Hosts the main logo.",
+    "turn_indicator": "High-contrast block in the center of the draft screen. Blinking or pulsing animation (animate-pulse) when it is someone's turn."
+  },
+  "motion": {
+    "hover": "Scale up (scale-105) for character cards, slight translateY (-translate-y-1) for buttons.",
+    "transitions": "transition-transform duration-200 ease-out"
+  },
+  "media": {
+    "backgrounds": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/bec74c1f-5c4c-4247-919e-e6f8cdab79b8/images/8469917dd7da03fa932daa58e3fd2b7f78e6d74ce2c082013a36aaccbee56c8f.png",
+        "description": "Tropical ocean background for the main lobby",
+        "category": "app_background"
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/bec74c1f-5c4c-4247-919e-e6f8cdab79b8/images/27d5ae88a2208b4f82523e1d568f3e4dbb500d10af4556e9276f1b53f539e451.png",
+        "description": "Golden ABA text logo with black accents",
+        "category": "main_logo"
+      }
+    ],
+    "characters": [
+      {
+        "url": "https://images.unsplash.com/photo-1657180881998-c8a03ef22695?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxhbmltZSUyMHN0eWxlJTIwcG9ydHJhaXQlMjBjaGFyYWN0ZXIlMjBpbGx1c3RyYXRpb258ZW58MHx8fHwxNzc1NjcxNDY0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Character portrait 1",
+        "category": "roster_placeholder"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1712168567859-e24cbc155219?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHxhbmltZSUyMHN0eWxlJTIwcG9ydHJhaXQlMjBjaGFyYWN0ZXIlMjBpbGx1c3RyYXRpb258ZW58MHx8fHwxNzc1NjcxNDY0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Character portrait 2",
+        "category": "roster_placeholder"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1627065554182-9489acd66222?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHw0fHxhbmltZSUyMHN0eWxlJTIwcG9ydHJhaXQlMjBjaGFyYWN0ZXIlMjBpbGx1c3RyYXRpb258ZW58MHx8fHwxNzc1NjcxNDY0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Character portrait 3",
+        "category": "roster_placeholder"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613658501648-58f72a09355f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxhbmltZSUyMHN0eWxlJTIwcG9ydHJhaXQlMjBjaGFyYWN0ZXIlMjBpbGx1c3RyYXRpb258ZW58MHx8fHwxNzc1NjcxNDY0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Character portrait 4",
+        "category": "roster_placeholder"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Use 'Bebas Neue' from Google Fonts for all headings and button texts.",
+    "Set the main layout background to the tropical ocean image (app_background), full screen, fixed, and cover.",
+    "Implement the UI overlays with translucent dark backgrounds (`bg-black/80`) to ensure readability over the bright tropical background.",
+    "For the Top Banner, place the 'main_logo' centered or on the left. The banner should be dark.",
+    "For buttons, mimic the colorful 3D-like style from ABA: use bright colors (from the guidelines), thick bold text, and a bottom border to create a faux-3D button effect. Example class: `bg-orange-500 border-b-4 border-orange-700 hover:translate-y-[2px] hover:border-b-2 active:border-b-0`.",
+    "The character roster must be a grid inside a black container. Each character item should have a red border (`border-2 border-red-600`), and NO border-radius. Populate with the placeholder images where character assets are missing.",
+    "In the draft screen, strictly implement the pick/ban flow: 1 ban, 1 ban, first team pick 1, second team pick 2, 2 bans, first team pick 2, second team pick 2, first team pick 1.",
+    "Ensure all interactive elements have a `data-testid` attribute in kebab-case."
+  ]
+}
